@@ -3,25 +3,25 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh; /* Full height of the viewport */
     margin: 0;
 }
 
 .container {
     text-align: left;
-    max-width: 800px; /* Adjust as needed */
+    max-width: 840px; /* Adjust as needed */
     padding: 20px;
 }
 
 h1 {
     font-family: ActaDisplayBook;
     color: #414042;
-    font-size: 75px;
-
+    font-size: 48px;
+    font-weight: lighter;
+    -webkit-font-smoothing: auto;
 }
 
 p {
     font-family: AvenirPro35Light;
     color: #6D6E71;
-    font-size: 26px;
+    font-size: 18px;
 }
