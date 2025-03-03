@@ -5,9 +5,12 @@ body {
 h1 {
     font-family: ActaDisplayBook;
     color: #414042;
+    font-size: 28pt;
+
 }
 
 p {
     font-family: AvenirPro35Light;
-    color: #6D6E71
+    color: #6D6E71;
+    font-size: 8pt;
 }
