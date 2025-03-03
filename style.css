@@ -1,9 +1,16 @@
+
+
 body {
     background-color: #EEEEEE;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    min-height: 100%;
     align-items: center;
     margin: 0;
+    font-family: AvenirPro35Light;
+    color: #6D6E71;
+    font-size: 18px;
 }
 
 .container {
@@ -20,8 +27,28 @@ h1 {
     -webkit-font-smoothing: auto;
 }
 
+a {
+    color: #6D6E71;
+}
+
 p {
     font-family: AvenirPro35Light;
     color: #6D6E71;
     font-size: 18px;
+    line-height: 24px;
+}
+
+footer {
+    margin-top: 60px;
+}
+
+/* container */
+.two-columns {
+    display:flex;
+}
+
+/* columns */
+.two-columns > * {
+    margin-top: 60px;
+    width:50%;
 }
