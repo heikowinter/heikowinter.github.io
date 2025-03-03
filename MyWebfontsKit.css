@@ -1,0 +1,30 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 3867246, 2020-12-16T11:57:38-0500
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: Acta Display Book by Monotype
+ * URL: https://www.myfonts.com/collections/monotype-imaging-foundry
+ * Copyright: Copyright © 2025 Monotype Imaging Inc. All rights reserved.
+ *
+ * Webfont: Avenir Pro 35 Light by MyFonts
+ * URL: https://www.myfonts.com/collections/linotype-foundry
+ 
+ * © 2025 MyFonts Inc. */
+
+
+  
+@font-face {
+  font-family: "AvenirPro35Light";
+  src: url('webFonts/AvenirPro35Light/font.woff2') format('woff2'), url('webFonts/AvenirPro35Light/font.woff') format('woff');
+}
+@font-face {
+  font-family: "ActaDisplayBook";
+  src: url('webFonts/ActaDisplayBook/font.woff2') format('woff2'), url('webFonts/ActaDisplayBook/font.woff') format('woff');
+}
+
