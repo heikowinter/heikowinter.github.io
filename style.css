@@ -1,7 +1,13 @@
+body {
+    background-color: #EEEEEE;
+}
+
 h1 {
     font-family: ActaDisplayBook;
+    color: #414042;
 }
 
 p {
     font-family: AvenirPro35Light;
+    color: #6D6E71
 }
