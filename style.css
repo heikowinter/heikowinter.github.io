@@ -15,7 +15,7 @@ body {
 
 .container {
     text-align: left;
-    max-width: 890px; /* Adjust as needed */
+    max-width: 840px; /* Adjust as needed */
     padding: 17px;
     line-height: 36px; /* Adjust as needed */
 }
