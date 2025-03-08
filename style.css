@@ -24,6 +24,7 @@ h1 {
     font-family: ActaDisplayBook;
     color: #414042;
     font-size: 48px;
+    line-height: normal;
     font-weight: lighter;
     -webkit-font-smoothing: auto;
 }
