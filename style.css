@@ -36,7 +36,7 @@ a {
 p {
     font-family: AvenirPro35Light;
     color: #6D6E71;
-    font-size: 17px;
+    font-size: 16px;
     line-height: 24px;
 }
 
@@ -52,5 +52,5 @@ footer {
 /* columns */
 .two-columns > * {
     margin-top: 60px;
-    width:50%;
+    width:30%;
 }
