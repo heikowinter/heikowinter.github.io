@@ -1,6 +1,32 @@
     
 <!DOCTYPE html>
 <html>
+    <head>
+        <title>My Website</title>
+        <script>
+            function createBlackDotFavicon() {
+                let canvas = document.createElement("canvas");
+                canvas.width = 32;
+                canvas.height = 32;
+                let ctx = canvas.getContext("2d");
+    
+                // Draw black dot in the center
+                ctx.fillStyle = "black";
+                ctx.beginPath();
+                ctx.arc(16, 16, 6, 0, Math.PI * 2);
+                ctx.fill();
+    
+                // Convert canvas to image & set favicon
+                let link = document.createElement("link");
+                link.rel = "icon";
+                link.href = canvas.toDataURL("image/png");
+                document.head.appendChild(link);
+            }
+    
+            // Call function to set favicon after page loads
+            window.onload = createBlackDotFavicon;
+        </script>
+    </head>
     <!--
 /**
 * @license
