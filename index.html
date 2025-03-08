@@ -2,30 +2,35 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>My Website</title>
+        <title>Heiko Winter - Portfolio 2025</title>
         <script>
-            function createBlackDotFavicon() {
+            function createHWFavicon() {
                 let canvas = document.createElement("canvas");
                 canvas.width = 32;
                 canvas.height = 32;
                 let ctx = canvas.getContext("2d");
-    
-                // Draw black dot in the center
-                ctx.fillStyle = "black";
-                ctx.beginPath();
-                ctx.arc(16, 16, 6, 0, Math.PI * 2);
-                ctx.fill();
-    
-                // Convert canvas to image & set favicon
+            
+                // Background color (Optional: Remove this line for transparent background)
+                ctx.fillStyle = "#6D6E71"; // Gray background
+                ctx.fillRect(0, 0, 32, 32);
+            
+                // Add "HW" Text
+                ctx.font = "bold 16px Arial"; // Font size and type
+                ctx.fillStyle = "white"; // Text color
+                ctx.textAlign = "center";
+                ctx.textBaseline = "middle";
+                ctx.fillText("HW", 16, 16); // Position in the center
+            
+                // Convert canvas to image & set as favicon
                 let link = document.createElement("link");
                 link.rel = "icon";
                 link.href = canvas.toDataURL("image/png");
                 document.head.appendChild(link);
             }
-    
-            // Call function to set favicon after page loads
-            window.onload = createBlackDotFavicon;
-        </script>
+            
+            // Set the favicon when the page loads
+            window.onload = createHWFavicon;
+            </script>
     </head>
     <!--
 /**
