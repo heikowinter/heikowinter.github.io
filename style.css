@@ -17,6 +17,7 @@ body {
     text-align: left;
     max-width: 840px; /* Adjust as needed */
     padding: 16px;
+    line-height: 36px; /* Adjust as needed */
 }
 
 h1 {
